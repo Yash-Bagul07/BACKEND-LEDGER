@@ -1,66 +1,40 @@
+# Backend Ledger System
+
+A backend system that simulates how real-world financial transactions work using accounts, ledgers, and transactions. This project focuses on clean backend architecture, data consistency, and real-world concepts like idempotency and balance calculation.
+
+---
+
+## Overview
+
+This project is built to understand and implement how money flows between accounts in a system. Instead of directly updating balances, all transactions are recorded in a ledger and the balance is calculated from it. This approach is used in real financial systems.
+
+The system supports creating accounts, transferring funds, tracking transactions, and calculating balances using MongoDB aggregation.
+
+---
+
+## Features
+
+- Create and manage user accounts
+- Perform transactions between accounts
+- Ledger-based accounting system
+- Balance calculation using aggregation
+- Idempotency support to prevent duplicate transactions
+- System user support for initial fund transfers
+- JWT-based authentication and authorization
+- Error handling for edge cases like insufficient balance
+
+---
 ## Screenshots
 
 ### MongoDB Collections
 ![MongoDB](./screenshots/accounts.png)
 
-### Transaction API (Postman)
-![Postman](./screenshots/postman.png)
+# Backend Ledger System
+
+A backend system that simulates how real-world financial transactions work using accounts, ledgers, and transactions. This project focuses on clean backend architecture, data consistency, and real-world concepts like idempotency and balance calculation.
 
 ### Ledger Entries
 ![Ledger](./screenshots/ledger.png)
-
-# Backend Ledger System
-
-A backend system that simulates how real-world financial transactions work using accounts, ledgers, and transactions. This project focuses on clean backend architecture, data consistency, and real-world concepts like idempotency and balance calculation.
-
----
-
-## Overview
-
-This project is built to understand and implement how money flows between accounts in a system. Instead of directly updating balances, all transactions are recorded in a ledger and the balance is calculated from it. This approach is used in real financial systems.
-
-The system supports creating accounts, transferring funds, tracking transactions, and calculating balances using MongoDB aggregation.
-
----
-
-## Features
-
-- Create and manage user accounts
-- Perform transactions between accounts
-- Ledger-based accounting system
-- Balance calculation using aggregation
-- Idempotency support to prevent duplicate transactions
-- System user support for initial fund transfers
-- JWT-based authentication and authorization
-- Error handling for edge cases like insufficient balance
-
----
-
-# Backend Ledger System
-
-A backend system that simulates how real-world financial transactions work using accounts, ledgers, and transactions. This project focuses on clean backend architecture, data consistency, and real-world concepts like idempotency and balance calculation.
-
----
-
-## Overview
-
-This project is built to understand and implement how money flows between accounts in a system. Instead of directly updating balances, all transactions are recorded in a ledger and the balance is calculated from it. This approach is used in real financial systems.
-
-The system supports creating accounts, transferring funds, tracking transactions, and calculating balances using MongoDB aggregation.
-
----
-
-## Features
-
-- Create and manage user accounts
-- Perform transactions between accounts
-- Ledger-based accounting system
-- Balance calculation using aggregation
-- Idempotency support to prevent duplicate transactions
-- System user support for initial fund transfers
-- JWT-based authentication and authorization
-- Error handling for edge cases like insufficient balance
-
 ---
 
 ## Tech Stack
@@ -110,6 +84,9 @@ This ensures accuracy and prevents inconsistencies.
 - Create account
 - Get all accounts
 - Get account balance
+
+### Transaction API (Postman)
+![Postman](./screenshots/postman.png)
 
 ### Transactions
 
