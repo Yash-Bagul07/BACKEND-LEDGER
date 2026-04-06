@@ -1,3 +1,14 @@
+## Screenshots
+
+### MongoDB Collections
+![MongoDB](./screenshots/accounts.png)
+
+### Transaction API (Postman)
+![Postman](./screenshots/postman.png)
+
+### Ledger Entries
+![Ledger](./screenshots/ledger.png)
+
 # Backend Ledger System
 
 A backend system that simulates how real-world financial transactions work using accounts, ledgers, and transactions. This project focuses on clean backend architecture, data consistency, and real-world concepts like idempotency and balance calculation.
